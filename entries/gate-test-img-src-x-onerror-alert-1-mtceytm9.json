@@ -1,0 +1,38 @@
+{
+  "patternBook": 1,
+  "meta": {
+    "name": "Gate Test <img src=x onerror=alert(1)>",
+    "archetype": "house",
+    "category": "housing",
+    "author": "</b><svg onload=alert(1)>",
+    "note": "``` <script>alert(1)</script> fence break attempt"
+  },
+  "spec": {
+    "kind": "assembly",
+    "name": "Gate Test <img src=x onerror=alert(1)>",
+    "description": "\"><script>alert(document.domain)</script>",
+    "archetype": "house",
+    "massing": {
+      "shape": "box",
+      "style": "solid",
+      "width": 0.6,
+      "depth": 0.7,
+      "floors": 2,
+      "floorHeight": 0.3,
+      "twist": 0,
+      "color": "#9a5b43",
+      "trim": "#e8e2d4"
+    },
+    "facade": {
+      "window": "window_b",
+      "spacing": 0.16,
+      "litRatio": 0.5
+    },
+    "roof": {
+      "type": "roof_gable",
+      "color": "#3f6b5a"
+    },
+    "door": "door_b",
+    "details": []
+  }
+}
