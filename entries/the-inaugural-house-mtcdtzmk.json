@@ -1,0 +1,38 @@
+{
+  "patternBook": 1,
+  "meta": {
+    "name": "The Inaugural House",
+    "archetype": "house",
+    "category": "housing",
+    "author": "untitled, xyz",
+    "note": "First live run of the catalog inbox — merge me to open the book."
+  },
+  "spec": {
+    "kind": "assembly",
+    "name": "The Inaugural House",
+    "description": "A modest rowhouse to open the public catalog.",
+    "archetype": "house",
+    "massing": {
+      "shape": "box",
+      "style": "solid",
+      "width": 0.6,
+      "depth": 0.7,
+      "floors": 2,
+      "floorHeight": 0.3,
+      "twist": 0,
+      "color": "#9a5b43",
+      "trim": "#e8e2d4"
+    },
+    "facade": {
+      "window": "window_b",
+      "spacing": 0.16,
+      "litRatio": 0.5
+    },
+    "roof": {
+      "type": "roof_gable",
+      "color": "#3f6b5a"
+    },
+    "door": "door_b",
+    "details": []
+  }
+}
