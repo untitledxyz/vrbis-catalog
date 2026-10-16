@@ -1,0 +1,111 @@
+{
+  "patternBook": 1,
+  "meta": {
+    "name": "Frame-House",
+    "archetype": "house",
+    "category": "housing",
+    "author": "untitled, xyz"
+  },
+  "spec": {
+    "kind": "assembly",
+    "name": "Frame-House",
+    "description": "",
+    "archetype": "house",
+    "massing": {
+      "shape": "box",
+      "style": "frame",
+      "width": 0.81,
+      "depth": 0.8,
+      "floors": 4,
+      "floorHeight": 0.425,
+      "twist": 0,
+      "color": "#d9d2c4",
+      "trim": "#efe9dc",
+      "frameBays": true,
+      "volumes": [
+        {
+          "x": 0.05,
+          "z": 0,
+          "w": 0.7,
+          "d": 0.8,
+          "floors": 2,
+          "style": "frame",
+          "faces": {
+            "front": {
+              "window": "window_a",
+              "ground": "shop",
+              "material": "metal"
+            },
+            "right": {
+              "window": "window_a",
+              "ground": "shop",
+              "material": "metal"
+            },
+            "back": {
+              "window": "window_a",
+              "ground": "shop",
+              "material": "metal"
+            },
+            "left": {
+              "window": "window_a",
+              "ground": "shop",
+              "material": "metal"
+            }
+          }
+        },
+        {
+          "x": -0.25,
+          "z": 0,
+          "w": 0.32,
+          "d": 0.32,
+          "floors": 4,
+          "style": "solid",
+          "roof": {
+            "type": "roof_flat",
+            "color": "#55585e"
+          },
+          "faces": {
+            "front": {
+              "window": "none",
+              "spacing": 0.26,
+              "ground": "shop"
+            },
+            "right": {
+              "window": "window_round",
+              "spacing": 0.26,
+              "ground": "shop"
+            },
+            "back": {
+              "window": "none",
+              "spacing": 0.26,
+              "ground": "shop",
+              "details": [
+                {
+                  "part": "chimney_a",
+                  "offset": 0
+                }
+              ]
+            },
+            "left": {
+              "window": "window_b",
+              "spacing": 0.26,
+              "ground": "shop"
+            }
+          }
+        }
+      ]
+    },
+    "facade": {
+      "window": "none",
+      "spacing": 0.2,
+      "litRatio": 0.45,
+      "doors": 2
+    },
+    "roof": {
+      "type": "roof_flat",
+      "color": "#55585e"
+    },
+    "door": "door_a",
+    "details": []
+  }
+}
