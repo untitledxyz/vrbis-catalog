@@ -1,5 +1,7 @@
 {
   "patternBook": 1,
   "name": "The VRBIS Public Catalog",
-  "entries": []
+  "entries": [
+    "entries/frame-house-mvb4e60i.json"
+  ]
 }
