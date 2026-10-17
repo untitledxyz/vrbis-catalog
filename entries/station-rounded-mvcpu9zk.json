@@ -1,0 +1,83 @@
+{
+  "patternBook": 1,
+  "meta": {
+    "name": "station rounded",
+    "archetype": "trainStation",
+    "category": "infra",
+    "author": "otk"
+  },
+  "spec": {
+    "kind": "assembly",
+    "name": "station rounded",
+    "description": "",
+    "archetype": "trainStation",
+    "massing": {
+      "shape": "box",
+      "style": "banded",
+      "width": 1.7,
+      "depth": 0.6,
+      "floors": 1,
+      "floorHeight": 0.425,
+      "twist": 0,
+      "color": "#d9d2c4",
+      "trim": "#efe9dc",
+      "frameBays": true,
+      "volumes": [
+        {
+          "x": 0,
+          "z": -0.05,
+          "w": 1.7,
+          "d": 0.6,
+          "floors": 1,
+          "style": "banded",
+          "faces": {
+            "front": {
+              "window": "window_round",
+              "spacing": 0.3,
+              "material": "metal",
+              "details": [
+                {
+                  "part": "awning_a",
+                  "offset": 0
+                }
+              ]
+            },
+            "right": {
+              "window": "window_round",
+              "spacing": 0.3,
+              "material": "metal"
+            },
+            "back": {
+              "window": "window_round",
+              "spacing": 0.3,
+              "material": "metal",
+              "details": [
+                {
+                  "part": "lantern_a",
+                  "offset": 0
+                }
+              ]
+            },
+            "left": {
+              "window": "window_round",
+              "spacing": 0.3,
+              "material": "metal"
+            }
+          }
+        }
+      ]
+    },
+    "facade": {
+      "window": "none",
+      "spacing": 0.2,
+      "litRatio": 0.45,
+      "doors": 1
+    },
+    "roof": {
+      "type": "roof_vault",
+      "color": "#55585e"
+    },
+    "door": "door_a",
+    "details": []
+  }
+}
