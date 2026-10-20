@@ -1,0 +1,103 @@
+{
+  "patternBook": 1,
+  "meta": {
+    "name": "REFURBISHED GRAIN SILO",
+    "archetype": "grandTower",
+    "category": "housing",
+    "author": "kayh"
+  },
+  "spec": {
+    "kind": "assembly",
+    "name": "REFURBISHED GRAIN SILO",
+    "description": "",
+    "archetype": "grandTower",
+    "massing": {
+      "shape": "box",
+      "style": "lattice",
+      "width": 1.72,
+      "depth": 1.76,
+      "floors": 16,
+      "floorHeight": 0.425,
+      "twist": 0,
+      "color": "#d9d2c4",
+      "trim": "#efe9dc",
+      "frameBays": true,
+      "foundation": "podium",
+      "volumes": [
+        {
+          "x": 0,
+          "z": -0.05,
+          "w": 1.7,
+          "d": 1.7,
+          "floors": 1,
+          "style": "lattice"
+        },
+        {
+          "x": 0,
+          "z": 0,
+          "w": 1.72,
+          "d": 1.72,
+          "floors": 16,
+          "style": "solid",
+          "round": true,
+          "roof": {
+            "type": "roof_dome",
+            "color": "#55585e"
+          },
+          "faces": {
+            "front": {
+              "window": "window_a",
+              "spacing": 0.16,
+              "wide": true,
+              "ground": "bay",
+              "material": "glass"
+            },
+            "right": {
+              "window": "window_a",
+              "spacing": 0.16,
+              "wide": true,
+              "ground": "bay",
+              "material": "glass"
+            },
+            "back": {
+              "window": "window_a",
+              "spacing": 0.16,
+              "wide": true,
+              "ground": "bay",
+              "material": "glass",
+              "details": [
+                {
+                  "part": "minaret_a",
+                  "offset": 0
+                },
+                {
+                  "part": "mast_a",
+                  "offset": 0
+                }
+              ]
+            },
+            "left": {
+              "window": "window_a",
+              "spacing": 0.16,
+              "wide": true,
+              "ground": "bay",
+              "material": "glass"
+            }
+          }
+        }
+      ]
+    },
+    "facade": {
+      "window": "none",
+      "spacing": 0.2,
+      "litRatio": 0.45,
+      "doors": 3
+    },
+    "roof": {
+      "type": "roof_flat",
+      "color": "#55585e"
+    },
+    "door": "door_a",
+    "details": []
+  }
+}
